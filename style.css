@@ -587,6 +587,9 @@ transition: color 0.1s linear;
 		width: 50%;
 		text-align: center;
 	}
+	.services__item:last-child{
+		margin: 0 auto;
+	}
 	.sevices__logo{
 		text-align: center;
 		margin: 0 auto;
@@ -652,6 +655,9 @@ transition: color 0.1s linear;
 		margin-left: 80px;
 		width: 100%;
 	}
+	.services__item:last-child{
+		margin-left: 80px;
+	}
 	.services__title{
 		font-size: 20px;	
 	}
@@ -708,15 +714,23 @@ transition: color 0.1s linear;
 		font-size: 16px;
 	}
 	.subtitle{
-		font-size: 30px;
+		font-size: 26px;
 		margin-bottom: 30px;
 	}
 	/*Services*/
+	.services{
+		margin:50px 0;
+	}
 	.services__item{
 		margin-top: 30px;
-		margin-left: 20px;
+		margin-left: auto;
+		margin-right: auto;
 		width: 100%;
 		text-align: center;
+	}
+	.services__item:last-child{
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	.services__title{
@@ -730,6 +744,9 @@ transition: color 0.1s linear;
 	.potfolio__img{
 		width: 340px;
 		height: auto;
+	}
+	.portfolio__subtitle{
+		font-size: 20px; 
 	}
 	.reviewer__prof{
 		margin-bottom: 30px;
@@ -756,6 +773,13 @@ transition: color 0.1s linear;
 	font-size: 16px;
 	}
 }
+@media(max-width: 380px){
+	.potfolio__img{
+    width: 300px;
+    height: auto;
+    margin-right: 0;
+	}
+	}
 @media(max-width: 320px){
 	/*Contact*/
 	.contact__description{
